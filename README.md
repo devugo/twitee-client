@@ -1,8 +1,8 @@
-# TASK MANAGEMENT WEB CLIENT
+# TWITEE WEB CLIENT
 
 ## Overview
 
-Basically, this app is for managing of tasks. Let's you organize your tasks in a place. Easily checkout completed task, view overdue tasks, reschedule tasks and lots more.
+Twitee - Connect with people across the globe.
 
 ## Dependencies
 
@@ -10,8 +10,9 @@ Basically, this app is for managing of tasks. Let's you organize your tasks in a
 - [TypeScript](https://www.typescriptlang.org/)
 - [Redux](https://redux.js.org/)
 - [Ant Design](https://ant.design/)
-- [Backend-Server-URL](https://task-management-server-devugo.herokuapp.com/)
-- [Backend-Repository](https://github.com/devugo/task-management-server)
+- [Backend-Server-URL](https://twitee-by-devugo.herokuapp.com/)
+- [Backend-Repository](https://github.com/devugo/twitee-server)
+- [API DOC](https://documenter.getpostman.com/view/14094805/UVJhCuVy)
 
 ## Project Structure
 
@@ -27,7 +28,6 @@ Below shows the project structure;
             - images ( All project images )
             - interceptors ( Pre rendered components before the main component is rendered )
             - pages ( Pages associated to routes in the app )
-            - models ( All entities / data structure )
             - scss ( Default SCSS stylings )
             - store ( Redux store containing the actions, reducers and custom API middleware )
             App.js ( Routing setup )
@@ -38,36 +38,22 @@ Below shows the project structure;
 
 ## Live Demo
 
-- [Demo](https://task-management-by-devugo.netlify.app/).
+- [Demo](https://twitee-by-devugo.netlify.app/).
 
 #### Test Credentials
 
 ```
     {
-        "email": "test@gmail.com",
-        "password": "Password1234,
+        "email": "https://documenter.getpostman.com/view/14094805/UVJhCuVy",
+        "password": "password",
     }
 ```
-
-### Site Preview Images
-
-#### Home Page Preview
-
-![Home page](https://task-management-by-devugo.netlify.app/home-preview.png)
-
-#### Dashboard Page Preview
-
-![Dashboard Page](https://task-management-by-devugo.netlify.app/dashboard-preview.png)
-
-#### Tasks Page Preview
-
-![Tasks Page](https://task-management-by-devugo.netlify.app/tasks-preview.png)
 
 ## How to run locally
 
 ### Clone the repository
 
-- Run `git clone https://github.com/devugo/task-management-web-client` on your terminal/cmd to pull the project
+- Run `git clone https://github.com/devugo/twitee-client.git` on your terminal/cmd to pull the project
 
 ### Available Scripts
 
