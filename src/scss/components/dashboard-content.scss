@@ -1,0 +1,19 @@
+.dashboard-content {
+  padding: 20px;
+
+  .button-container {
+    display: flex;
+    justify-content: flex-end;
+    button {
+      background-color: var(--primary-color);
+      color: white;
+      cursor: pointer;
+    }
+  }
+
+  .dashboard-summary-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}

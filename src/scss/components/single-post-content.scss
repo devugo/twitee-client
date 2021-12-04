@@ -1,0 +1,19 @@
+.single-post-content {
+  .post-comments {
+    li {
+      border-bottom: 1px solid grey;
+      margin-bottom: 5px;
+
+      p.details {
+        font-size: 10px;
+      }
+    }
+  }
+  .go-back {
+    cursor: pointer;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}

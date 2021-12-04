@@ -1,0 +1,63 @@
+.dashboard-summary-card {
+  padding: 0 !important;
+  border-radius: 5px;
+  // display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 10px;
+  animation-name: top-in;
+  animation-duration: 0.7s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: both;
+
+  margin-bottom: 10px;
+  box-shadow: 0 0px 8px 0px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  transition-duration: 0.1s;
+  animation-name: zoom-in;
+  animation-duration: 0.7s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: backwards;
+  position: relative;
+  @include transition-ease;
+
+  
+  &:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0px 18px 0px rgba(0, 0, 0, 0.1);
+  }
+
+  .post-body {
+    padding: 10px;
+    padding-bottom: 20px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #f3f3f3;
+    }
+  }
+
+  .action-section {
+    display: flex;
+    border-top: 1px solid red;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding: 10px;
+  }
+  
+  .icon-container {
+    cursor: pointer;
+    max-width: 30px;
+  }
+
+  .details {
+    padding-left: 10px;
+    .post-user {
+      font-size: 10px;
+    }
+    .post-date {
+      font-size: 10px;
+    }
+  }
+}

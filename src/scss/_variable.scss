@@ -1,0 +1,142 @@
+//  LIGHT THEME
+html {
+  --black: #000000;
+  --black-2: #19191d;
+  --black-3: #0f1a4f;
+  --green: green;
+  --orange: orange;
+  --primary-color: #006fd6;
+  --secondary-color: #fd5c63;
+  --tertiary-color: #191970;
+  --light-blue: #dadaff;
+  --very-light-blue: rgb(248, 248, 255);
+  --focus-color: #40a9ff;
+  --hover-color: #a8d8ff;
+
+  --success-bg-color: #c9f7f5;
+  --success-color: #1bc5bd;
+  --in-progress-bg-color: #fff4de;
+  --in-progress-color: #ffa800;
+  --open-bg-color: #e4e4e4;
+  --open-color: #353535;
+  --fail-bg-color: #ffe2e5;
+  --fail-color: #f64e60;
+
+  --gray: #b4b4b4;
+  --gray-2: #ebeaea;
+  --light-gray: #f6f6f6;
+  --light-gray-2: #f3f3f3;
+  --dark-gray: #6c6c6c;
+  --white: #ffffff;
+
+  --header-text-color: #2e2e2e;
+  --paragraph-text-color: var(--dark-gray);
+
+  // WATERMARK
+  --watermark-bg-color: var(--tertiary-color);
+  --watermark-text-color: var(--white);
+
+  // GENERAL
+  --body-bg-color: var(--light-gray);
+  --gradient: linear-gradient(to bottom right, var(--tertiary-color), var(--primary-color));
+  --text-shadow-color: var(--black);
+
+  // LOGOUT BUTTON
+  --logout-bg-color: var(--fail-color);
+  --logout-text-color: var(--white);
+
+  // ICONS
+  --icon-bg-color: var(--primary-color);
+  --icon-color: var(--white);
+
+  // PAGE HEADER
+  --page-header-bg-color: var(--primary-color);
+  --page-header-text-color: var(--white);
+
+  // PAGE CONTENT
+  --page-content-bg-color: var(--light-gray-2);
+
+  // PAGE CONTENT TITLE
+  --page-content-title-color: var(--primary-color);
+  --page-content-title-border-color: var(--primary-color);
+  --page-content-title-bg-color: var(--white);
+
+  // TASK
+  --task-border-color: var(--gray);
+  --task-bg-color: var(--white);
+
+  // TASK DATE
+  --task-date-color: var(--secondary-color);
+  --task-date-bg-color: var(--white);
+  --task-date-border-color: var(--gray);
+
+  // TASK PROJECT
+  --task-project-color: var(--white);
+  --task-project-bg-color: var(--green);
+  --task-project-border-color: var(--green);
+
+  // TASK LABEL
+  --task-label-color: var(--orange);
+  --task-label-bg-color: var(--white);
+  --task-label-border-color: var(--orange);
+
+  // TASK TOGGLER
+  --task-options-toggler-bg-color: var(--light-gray-2);
+  --task-options-toggler-icon-color: var(--gray);
+
+  // TASK STATUS
+  --task-status-text-color: var(--white);
+  --task-status-open-color: var(--open-color);
+  --task-status-open-bg-color: var(--open-bg-color);
+  --task-status-in-progress-color: var(--in-progress-color);
+  --task-status-in-progress-bg-color: var(--in-progress-bg-color);
+  --task-status-completed-color: var(--success-color);
+  --task-status-completed-bg-color: var(--success-bg-color);
+
+  // LEFT SIDEBAR
+  --group-active-bg-color: var(--light-blue);
+  --group-active-border-color: var(--secondary-color);
+  --sidebar-title-border-color: var(--secondary-color);
+
+  // SIDEBAR ADD NEW
+  --sidebar-add-new-color: var(--green);
+
+  // SIDEBAR ADD TASK
+  --add-task-section-border-color: var(--gray);
+  --add-task-section-bg-color: var(--very-light-blue);
+
+  // MAIN GROUP
+  --task-main-group-border-color: var(--secondary-color);
+  --task-main-group-bg-color: var(--white);
+  --main-group-icon-bg-color: var(--gradient);
+  --main-group-icon-color: var(--icon-color);
+
+  // INPUT
+  --input-border-color-focus: var(--focus-color);
+  --input-border-color-hover: var(--hover-color);
+  --input-bg-color: var(--very-light-blue);
+  --input-select-bg-color: var(--gray-2);
+  --input-disabled-bg-color: var(--gray-2);
+  --select-input-placeholder-color: var(--dark-gray);
+
+  // BUTTON
+  --button-bg: var(--gradient);
+  --home-button-bg: linear-gradient(
+    to bottom right,
+    var(--secondary-color),
+    var(--in-progress-color)
+  );
+  --button-border-color: var(--primary-color);
+
+  // SCROLLBAR
+  --scrollBarColor: var(--primaryColor);
+  --scrollBaHroverColor: #ffac1d;
+
+  // TASK DASHBOARD
+  --todayBgColor: rgba(0, 0, 139, 0.837);
+  --dueBgColor: rgb(213, 85, 85);
+  --upcomingBgColor: #17a9a1;
+  --openBgColor: rgba(61, 61, 180, 0.837);
+  --inProgressBgColor: var(--in-progress-color);
+  --completeBgColor: var(--success-color);
+}

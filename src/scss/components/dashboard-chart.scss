@@ -1,0 +1,18 @@
+.dashboard-chart {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  animation-name: zoom-in;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: both;
+  animation-delay: 1.4s !important;
+
+  .devugo-card {
+    padding-left: 0;
+
+    tspan {
+      font-size: 10px;
+    }
+  }
+}
